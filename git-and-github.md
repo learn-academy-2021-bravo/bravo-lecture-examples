@@ -1,6 +1,6 @@
-Git and GitHub
+# Git and GitHub
 
-Vocabulary
+### Vocabulary
 - git
 - GitHub
 - version control
@@ -10,14 +10,16 @@ Vocabulary
 - pull
 - GUI
 
-$ git config --global user.name
-$ git config --global user.email
+Checking the configuration for user name and password:  
+- $ git config --global user.name
+- $ git config --global user.email
 
-Git and GitHub
+### Git and GitHub
 Git - software that tracks version control
 GitHub - GUI for git technology
 
 
+Process:
 1) From GitHub to local
   - green code button
   - copy the url (clipboard icon)
