@@ -116,6 +116,8 @@ var pets = [
 console.log(pets)
 console.log(pets.length)
 
+// JSON - JavaScript Object Notation
+
 // Create function that take in an array of objects
 // map - do something to each item in the array - extract the name of each pet
 // Return an array with just the pet names
@@ -138,3 +140,12 @@ const longLovedPets = (array) => {
   })
 }
 console.log(longLovedPets(pets))
+
+// Older JavaScript syntax
+// Strings as keys
+// Bracket notation
+var person = {
+  "first": "Sherlock",
+  "last": "Holmes"
+}
+console.log(person["first"])
