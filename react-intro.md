@@ -48,6 +48,6 @@ A JavaScript library for building user interfaces
 
 
 ### Creating a New React Application
-$ yarn create react-app react-intro-sarah
-$ cd react-intro-sarah
-$ yarn start
+- $ yarn create react-app react-intro-sarah
+- $ cd react-intro-sarah
+- $ yarn start
