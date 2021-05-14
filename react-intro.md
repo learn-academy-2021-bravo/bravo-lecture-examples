@@ -51,3 +51,4 @@ A JavaScript library for building user interfaces
 - $ yarn create react-app react-intro-sarah
 - $ cd react-intro-sarah
 - $ yarn start
+- $ control + c
