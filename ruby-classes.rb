@@ -96,7 +96,7 @@ class FoodOrder
             @order_due = Time.at(Time.now.to_i + 780)
         end
 
-        def order_ticket
+        def print_order_ticket
             puts " An order from #{restaurant_name} for a #{sandwhich_order}, #{drink}, & #{chips} chips. Order placed at #{order_time} and should be ready at #{order_due}"
         end
 end
