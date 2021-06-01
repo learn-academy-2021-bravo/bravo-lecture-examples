@@ -10,6 +10,7 @@ class FoodOrder
             @chips = chips
             @order_time = Time.now
             @order_due = Time.at((Time.now.to_i) + 780)
+           
         end
 
         def print_order_ticket

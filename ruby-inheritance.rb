@@ -39,6 +39,7 @@ class ShoeOrderer < Orderer
         super(shop, user)
         @brand = brand
         @size = size
+        @counter = 0
     end
 
 
@@ -46,11 +47,18 @@ class ShoeOrderer < Orderer
         @shipping_method = "one day"
     end
 
+    def counter_up
+        @counter = @counter + 1
+    end
+
 end
 
 guillermo = ShoeOrderer.new("Nike", "guillermo", "Jordans", "11")
 
 
-guillermo.set_one_day_shipping
-guillermo.set_is_canceled
+
+guillermo.counter_up
+guillermo.counter_up
+guillermo.counter_up
+
 p guillermo
