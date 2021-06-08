@@ -1,0 +1,11 @@
+<h1> I got you some burritos. WHich one would you like </h1>
+
+<ul>  
+<li>
+<% @choices.each do |value|%>
+    <li> <%= value %></li>
+<% end %>
+
+</ul>
+
+<%= link_to "home", "/"%>
