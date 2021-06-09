@@ -1,0 +1,9 @@
+<h1>Herbs</h1>
+
+<% @herbs.map do |herb| %>
+  <li>
+    <%= link_to herb.name, herb_path(herb) %>
+  </li>
+<% end %>
+
+<p><%= link_to 'Add New Herb', new_herb_path %></p>
