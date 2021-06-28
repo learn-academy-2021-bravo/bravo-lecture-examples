@@ -1,38 +1,40 @@
 # External APIs with Fetch
 
+APIs can be two things:
+- External API  - something that someone else made and put on the internet
+Internal API - something that you made and it lives in your application (backend)
 
-API - external API that someone else made and put on the internet
-API - internal that you made and it lives in your application (backend)
+Request to an API - you are hitting an endpoint with a request/response cycle
 
-Request to an API - you are hitting an endpoint
-
+```
 get '/animals' => index endpoint will return an array of objects in JSON
 get '/sights/3?start_date=2021-02-01/end_date=2021-04-02' - array of objects that met a particular condition
+```
 
-post/patch/delete - NO GO!
+External APIs:
+- post/patch/delete - NO GO!
+- get requests only
 
-get requests only
+To make the request we use Fetch
 
-
-To make the request - fetch
-
-Asynchronous requests
-
-thing 1 (done)
-thing 2 (done)
-thing 3 (done)
-(Promise)         ------> thing 4 - take a long time, unknown amount of time ????
-thing 5 (here)
-
+Asynchronous requests:
+```
+Thing 1 (done)
+Thing 2 (done)
+Thing 3 (done)
+(Promise)         ------> Thing 4 - take a long time, unknown amount of time ????
+Thing 5 (jump to here)
+```
 
 Promise - the placeholder of an async request, JS Object
+
 Can be in three states:
 1) pending
 2) fulfilled
 3) rejected
 
 
-
+IP Address Example:
 ```
 import React, { Component } from 'react'
 
@@ -72,9 +74,9 @@ export default App
 
 API things to remember:
 
-When looking for an API
+1) When looking for an API:
 - documentation
 - how to a key
 - cost/limit
 
-API keys NEVER go into version control (git) - live in special ignored files
+2) API keys NEVER go into version control (git) - live in special ignored files
