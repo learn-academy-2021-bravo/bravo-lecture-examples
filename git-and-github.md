@@ -23,7 +23,8 @@ Process:
 1) From GitHub to local
   - green code button
   - copy the url (clipboard icon)
-  - $ git clone <paste url>
+  `$ git clone <paste url>`
+  
 2) Changes to the code
   - $ git branch (informational command)
   - Checkout a new branch
